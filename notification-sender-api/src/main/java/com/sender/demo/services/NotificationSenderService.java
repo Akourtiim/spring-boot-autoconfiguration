@@ -8,5 +8,5 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public interface NotificationSenderService {
-    void sendSmsNotification(String contactInfo, SenderTemplate template);
+    void sendNotification(String contactInfo, SenderTemplate template);
 }
